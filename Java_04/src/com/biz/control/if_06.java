@@ -22,6 +22,8 @@ public class if_06 {
 			System.out.println("합격");
 		} else {System.out.println("불합격");
 		}
+	
+		
 		}
 	}
 	
