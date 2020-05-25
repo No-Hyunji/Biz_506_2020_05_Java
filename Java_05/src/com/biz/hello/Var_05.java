@@ -11,7 +11,10 @@ public class Var_05 {
 		int num2 = rnd.nextInt(50)+51;
 		
 		
-	
+
+		
+		
+		
 		
 		
 		
