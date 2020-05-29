@@ -59,14 +59,6 @@ public class Array_01 {
 			intMathSum += intMath[i];
 			intMusSum += intMus[i];
 		}
-		
-			int intSum = 0;
-		for(int i = 0 ; i<20; i++) {
-			intSum += intKorSum;
-			intSum += intEngSum;
-			intSum += intMathSum;
-			intSum += intMusSum;
-		}
 		//==========================================
 		//   국어      영어     수학       음악         총점
 		//------------------------------------------
@@ -76,6 +68,8 @@ public class Array_01 {
 		//intKor[3] intEng[3] intMath[3] intMus[3]    intStSum[0]
 		
 		// 학생들의 과목별 총점을 계산하여 저장할 배열을 또 20개 선언
+			
+		
 		int[] intStSum = new int[20];
 		for(int i = 0 ; i < 20 ; i++) {
 		//총점 배열에 학생들의 성적 총점을 계산하여 저장
@@ -85,17 +79,17 @@ public class Array_01 {
 			intStSum[i]+=intMus[i];
 		}
 			
-		System.out.println("============================================");
-		System.out.println("국어\t영어\t수학\t음악\t총점\t평균");
-		System.out.println("============================================");
+		System.out.println("=============================================================================================");
+		System.out.println("국어\t\t영어\t\t수학\t\t음악\t\t총점\t\t평균");
+		System.out.println("=============================================================================================");
 		for(int i = 0 ; i < 20 ; i ++) {
-		System.out.printf("%d\t%d\t%d\t%d\t%d\n",
-				           intKor[i],intEng[i],intMath[i],intMus[i],intStSum[i]/4);
+		System.out.printf("%d\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d\n",
+				           intKor[i],intEng[i],intMath[i],intMus[i],intStSum[i],intStSum[i]/4);
 		}
-		System.out.println("============================================");
-		System.out.printf("%d\t%d\t%d\t%d\t\n",
+		System.out.println("=============================================================================================");
+		System.out.printf("%d\t\t%d\t\t%d\t\t%d\n",
 				intKorSum,intEngSum,intMathSum,intMusSum);
-		System.out.printf("%d\t%d\t%d\t%d\t\n"
+		System.out.printf("%d\t\t%d\t\t%d\t\t%d\n"
 				,intKorSum/20,intEngSum/20,intMathSum/20,intMusSum/20);
 
 		
