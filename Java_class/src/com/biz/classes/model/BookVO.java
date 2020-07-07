@@ -7,4 +7,5 @@ public class BookVO {
 	public String auth;
 	public String comp;
 	public int price;
+	
 }

@@ -8,14 +8,16 @@ public class ClassEx_008 {
 		
 		LineService line = new LineService();
 		
-		System.out.println(line.do_line(30));
+		System.out.println( line.do_line(50) );
 		System.out.println("성적일람표");
-		System.out.println(line.single(30));
+		System.out.println( line.single(50) );
 		System.out.println(90);
 		System.out.println(90);
 		System.out.println(90);
-		System.out.println(line.single(50));
+		System.out.println( line.single(50) );
 		System.out.println(270);
-		System.out.println(line.do_line(50));
+		System.out.println( line.do_line(50) );
+		
 	}
+	
 }

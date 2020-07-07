@@ -2,9 +2,9 @@ package com.biz.classes.model;
 
 public class BankVO {
 	
-
 	private String strNum;
 	private String strDate;
+	
 	private int intInput;
 	private int intOutput;
 	private int intValance;
@@ -39,7 +39,8 @@ public class BankVO {
 	public void setIntValance(int intValance) {
 		this.intValance = intValance;
 	}
+
 	
 	
-	
+
 }
