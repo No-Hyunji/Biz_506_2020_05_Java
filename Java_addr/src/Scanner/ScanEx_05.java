@@ -23,7 +23,7 @@ public class ScanEx_05 {
 		System.out.print("숫자1 >> ");
 		String strNum1 = scan.nextLine();
 		
-		// Intege.valueOf() method를 사용하여 숫자형으로 된 문자열 데이터를 정수형 데이터로 변환
+		// Integer.valueOf() method를 사용하여 숫자형으로 된 문자열 데이터를 정수형 데이터로 변환
 		int intNum1 = Integer.valueOf(strNum1);
 		
 		System.out.print("숫자2 >> ");

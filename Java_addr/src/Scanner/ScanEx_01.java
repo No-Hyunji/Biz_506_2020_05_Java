@@ -18,12 +18,12 @@ public class ScanEx_01 {
 		// 컴퓨터에서 알아볼 수 있는 데이터코드로 변환
 
 		// 키보드로 문자(열)을 입력하는 동안 그 데이터 코드를
-		//임시의 저장장치(Buffer)에 저장을 하고 있다가.
+		// 임시의 저장장치(Buffer)에 저장을 하고 있다가.
 		// Enter를 누르는 순간 Scanner에게 입력이 완료되었음을 알려주는 역할을 한다.
 		
 		InputStream in = System.in;
 		
-		//InputStream을 Scanner()에 연결하면
+		// InputStream을 Scanner()에 연결하면
 		// InputStream으로부터 전송되어온 데이터 코드를
 		// 실제의 문자열로 변환시키는 역할을 수행한다
 		

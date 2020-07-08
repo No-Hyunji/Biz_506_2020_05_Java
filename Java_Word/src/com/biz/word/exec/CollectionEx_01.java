@@ -14,12 +14,11 @@ public class CollectionEx_01 {
 		// Arrays.asList(배열) : 배열을 List 형 데이터로 변환
 		// Arrays라는 클래스에 애스리스트라고하는 스태틱메서드가 있나봄 
 		// 리스트로        <<<<<<========   배열을
-		List<String> words = Arrays.asList(nations);
-		
+		List<String> words = Arrays.asList(nations); //어레이스 클래스에 .머머머 라고 하는 메소드가 있다.
 		// Collections 클래스의 기능을 몇가지 사용하기 위해서 
 		// 배열을 List형 데이터로 변환했다.
 		
-		// String, Integer, Long, Float, Charactor, Boolean과 같은
+		// String, Integer, Long, Float, Character, Boolean과 같은
 		// Wrapper class를 포함하는 리스트 데이터를
 		// 오름차순 정렬하는 매우 간단한 메서드이다.
 		// Collections의 sort() method는 내부 알고리즘이 Quick Sort이므로 , 

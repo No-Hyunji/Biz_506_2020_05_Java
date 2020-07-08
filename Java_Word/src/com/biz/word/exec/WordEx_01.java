@@ -53,14 +53,13 @@ public class WordEx_01 {
 				}
 				// 읽어들인 데이터를 콜론 기준으로
 				// 문자열 분해를 하여 words배열에 담아달라.
-				String[] words = reader.split(":");
-				
+				String[] words = reader.split(":"); // 땡땡하고 중간에 비워놓으면 알파벳단위로 쪼개달라는거얌
 				WordVO wVO = new WordVO();
 				wVO.setEng(words[SplitPosition.WORD_ENG]); // words[0]
 				wVO.setKor(words[SplitPosition.WORD_KOR]); // words[1]
 				wordList.add(wVO);
 			}
-			buffer.close(); // while문에서 빠져나오는 코드 없으면 remove하라는 빨간줄이 뜸 
+			buffer.close(); // while문에서 빠져나오는 코드 없으면 remove하라는 빨간줄이 뜸 => if(reader == null ){break;}이걸해줘야됨.
 			fileReader.close();
 			
 		} catch (FileNotFoundException e) {

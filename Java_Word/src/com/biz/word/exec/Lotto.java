@@ -9,7 +9,7 @@ public class Lotto {
 		
 		List<Integer> intList = new ArrayList<Integer>();
 		for(int i = 0 ; i < 45 ; i ++) {
-			intList.add(i+1); // 1~45까지가 순서대로 저장됨
+			intList.add(i+1); // +1해줘야 1~45까지가 순서대로 저장됨
 		}
 		
 		Collections.shuffle(intList);
