@@ -10,8 +10,8 @@ public class Var_04 {
 		if(num %3 == 0) {
 			System.out.println(num + ": 3의 배수 입니다");
 		}
-		if(num %5 == 0){
-			System.out.println(num + ": 5의 배수입니다");
+		else if(num %5 == 0){
+			System.out.println(num + ": 5의 배수입니다"); 
 		}
 	}
 

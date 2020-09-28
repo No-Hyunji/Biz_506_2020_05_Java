@@ -17,7 +17,7 @@ public class MemberEx {
 		Random rnd = new Random();
 		
 		for(int i = 0 ; i < 10; i++) {
-			int num3 = rnd.nextInt(50)+51;
+			int num3 = rnd.nextInt(100)+1;
 			if(num3 %2 == 0) {
 				System.out.println(num3+"은 짝수");
 			}else {
